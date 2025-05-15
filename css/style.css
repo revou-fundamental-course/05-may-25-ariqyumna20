@@ -1,0 +1,245 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo{
+    border: 1px solid;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* Nav style */
+nav{
+    display: flex;
+    border-radius: 10%;
+}
+
+nav a{
+    border: 1px solid;
+    color: black;
+    padding: 8px;
+    background-color: azure;
+    text-decoration: none;
+}
+
+.home-section{
+    text-align: center;
+}
+/* section{
+    text-align:center;
+} */
+
+/* Banner Form */
+
+.banner-form{
+    display: flex;
+    gap: 32px;
+}
+
+.banner-container{
+    height: 250px;
+    width: 100%;
+}
+
+.banner-img{
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-img-1 {
+    background-image: url(https://picsum.photos/500);
+}
+
+.banner-img-2 {
+    background-image: url(https://picsum.photos/550);
+}
+
+.banner-img-3 {
+    background-image: url(https://picsum.photos/600);
+}
+
+/* Pengisian Form */
+.banner-form form{
+    border: 1px solid;
+    height: 300px;
+    width: 40%;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 6px;
+}
+
+select,
+button,
+input{
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Benefit Container */
+.benefit-container{
+    width: 60%;
+}
+
+.benefit-ul{
+    list-style: none;
+    padding: 0;
+}
+
+.lingkaran{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+/* Our Package Content */
+.header-package{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.package-content {
+    height: 750px;
+    display:grid;
+}
+
+/* Call Content */
+.header-callus{
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+#call{
+    border: 1px solid;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.center-callUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#main-logo{
+    border: 1px solid;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0 auto 0 auto
+}
+
+/* responsive design */
+
+@media only screen and (max-width:480px) {
+    *{
+        background-color: #6666ff;
+    }
+
+    .main-logo{
+    border: 1px solid;
+    color: blue;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    }
+
+    nav a{
+    border: 1px solid;
+    color: black;
+    padding: 8px;
+    background-color: violet;
+    text-decoration: none;
+    }
+
+    .banner-form {
+        flex-direction: column;
+    }
+
+    .banner-form form{
+    border: 1px solid;
+    height: 300px;
+    width: 40%;
+    background-color: #3CDB61;
+    border: none;
+    border-radius: 6px;
+    }
+
+    select,
+    button,
+    input{
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: aliceblue;
+    }
+
+    .header-callus{
+    text-align: center;
+    background-color: #eeeeee;
+    }
+
+    #call{
+    border: 1px solid;
+    color: white;
+    background-color: maroon;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    }
+
+    #main-logo{
+    border: 1px solid;
+    color: blue;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0 auto 0 auto
+}
+}
